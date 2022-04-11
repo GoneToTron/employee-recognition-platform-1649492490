@@ -22,9 +22,10 @@ gem 'devise'
 group :development, :test do
   # Debugging tool
   gem 'pry-rails'
-  gem 'rubocop', '1.25.1'
-  gem 'rubocop-rails', '2.13.2'
+
+  gem 'rubocop', '~> 1.27', require: false
   gem 'rubocop-rspec', '2.8.0'
+
   # Tests
   gem 'rspec-rails', '~> 5.0.0'
 end
