@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe Employee, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+RSpec.describe Employee, type: :model do 
+  employee.create (:employee, email: "employee#{t}@test.com", password:'password123')
 end
