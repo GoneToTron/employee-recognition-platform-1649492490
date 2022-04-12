@@ -27,21 +27,3 @@ require 'rails_helper'
       end
     end
   end
-
-
-  
-=begin  before :each do
-    employee.create(email: 'employee1@test.com', password: 'password')
-  end
-
-  it "Log in" do
-    visit '/employees/sign_in'
-    within("#session") do
-      fill_in 'Email', with: 'employee1@test.com'
-      fill_in 'Password', with: 'password'
-    end
-    click_button 'Log in'
-    expect(page).to have_content 'Signed in successfully.'
-  end
-end
-=end
