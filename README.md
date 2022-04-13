@@ -1,11 +1,8 @@
-# Employee Recognition Platfrom
+Hi guys and galls, 
+This is my http://nerds.family project. 
 
-### Setup
-```
-bin/setup
-```
+To acces it go to:
 
-### How to start the app
-```
-rails server
-```
+https://sheltered-bayou-86110.herokuapp.com/
+
+During the quieter parts of the next sprints, I'll also be working on the front end. 
